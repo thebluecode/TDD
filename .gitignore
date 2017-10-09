@@ -9,4 +9,4 @@ logs
 *.vspscc
 
 # Folder
-#typings/
+TestResults

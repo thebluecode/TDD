@@ -1,0 +1,5 @@
+E:\TFS\Projects\UnitTest\ProjectBo\bin\Debug\UnitTestSample.exe.config
+E:\TFS\Projects\UnitTest\ProjectBo\bin\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\ProjectBo\bin\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\ProjectBo\obj\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\ProjectBo\obj\Debug\UnitTestSample.pdb
