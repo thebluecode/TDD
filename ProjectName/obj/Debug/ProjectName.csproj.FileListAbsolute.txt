@@ -1,0 +1,17 @@
+c:\users\stefa\OneDrive\Documents\Visual Studio 2017\Projects\UnitTestSample\bin\Debug\UnitTestSample.exe.config
+c:\users\stefa\OneDrive\Documents\Visual Studio 2017\Projects\UnitTestSample\bin\Debug\UnitTestSample.exe
+c:\users\stefa\OneDrive\Documents\Visual Studio 2017\Projects\UnitTestSample\bin\Debug\UnitTestSample.pdb
+c:\users\stefa\OneDrive\Documents\Visual Studio 2017\Projects\UnitTestSample\obj\Debug\UnitTestSample.exe
+c:\users\stefa\OneDrive\Documents\Visual Studio 2017\Projects\UnitTestSample\obj\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\UnitTestSample\bin\Debug\UnitTestSample.exe.config
+E:\TFS\Projects\UnitTest\UnitTestSample\bin\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\UnitTestSample\bin\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\UnitTestSample\obj\Debug\ProjectName.csprojResolveAssemblyReference.cache
+E:\TFS\Projects\UnitTest\UnitTestSample\obj\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\UnitTestSample\obj\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\ProjectName\bin\Debug\UnitTestSample.exe.config
+E:\TFS\Projects\UnitTest\ProjectName\bin\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\ProjectName\bin\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\ProjectName\obj\Debug\UnitTestSample.exe
+E:\TFS\Projects\UnitTest\ProjectName\obj\Debug\UnitTestSample.pdb
+E:\TFS\Projects\UnitTest\ProjectName\obj\Debug\ProjectName.csprojResolveAssemblyReference.cache
