@@ -1,0 +1,11 @@
+# Logs
+logs
+*.log
+
+# TFS files
+*.vssscc
+*.vs
+.vs
+
+# Folder
+#typings/
