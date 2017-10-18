@@ -1,5 +1,5 @@
 # TDD
-In this project we present a pretty simple example of how implement unit tests in a .NET project. I also toke the oportunity to apply IoC by using Ninjec and Unity so that we can have an overview of two great and most commonly used tools.
+In this project we present a pretty simple example of how implement unit tests in a .NET project. I also toke the oportunity to apply IoC by using Ninjec and Unity so that we can have an overview of two great and most commonly used tools for it.
 
 Below you can see a quick presentation where we'll go through some key points when we talk about TDD.
 
