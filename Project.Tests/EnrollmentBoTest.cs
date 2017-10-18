@@ -12,19 +12,20 @@ namespace UnitTestProject
         [TestCategory("Enrollment")]
         public void ShouldReturnSuccessCode0000()
         {
+            // Arrange
             var account = new Account
             {
                 AccountNumber = "1234",
                 UtilityId = 1
             };
-
-            // Dependencies
-
+            
             var utilityBo = new UtilityBo();
             var enrollmentDao = new EnrollmentDao();
 
+            // Action
             var result = new EnrollmentBo(utilityBo, enrollmentDao).Enroll(account);
 
+            // Assert
             Assert.AreEqual("0000", result);
         }
 
@@ -33,13 +34,13 @@ namespace UnitTestProject
         [ExpectedException(typeof(ArgumentNullException), "Account cannot be null.")]
         public void ShouldThrowAnArgumentNullExceptionIfAccountParamIsNull()
         {
+            // Arrange
             Account account = null;
-
-            // Dependencies
 
             var utilityBo = new UtilityBo();
             var enrollmentDao = new EnrollmentDao();
 
+            // Action
             var result = new EnrollmentBo(utilityBo, enrollmentDao).Enroll(account);
         }
 
@@ -48,6 +49,7 @@ namespace UnitTestProject
         [ExpectedException(typeof(ArgumentException), "The utility with id 3 could not be found.")]
         public void ShouldThrowAnArgumentExceptionIfUtilityWasNotFound()
         {
+            // Arrange
             var account = new Account
             {
                 AccountNumber = "1234",
@@ -62,6 +64,8 @@ namespace UnitTestProject
                 .Returns(false);
 
             var enrollmentDao = new EnrollmentDao();
+            
+            // Action
             var result = new EnrollmentBo(utilityBo.Object, enrollmentDao).Enroll(account);
         }
 
@@ -88,7 +92,7 @@ namespace UnitTestProject
 
         [TestMethod]
         [TestCategory("Enrollment")]
-        public void ShouldNotAcceptCheckInIfTestDontPass()
+        public void ShouldNotAcceptCheckInIfTestDoesntPass()
         {
             Assert.IsTrue(true);
         }
